@@ -1,3 +1,13 @@
+function showGame() {
+    // Hide the start page
+    document.getElementById('start-page').style.display = 'none';
+
+    // Show the game page
+    document.getElementById('game-page').style.display = 'block';
+
+
+
+
 var game= document.querySelector(".game");
 var basket= document.querySelector(".basket");
 var fruits= document.querySelector(".fruits");
@@ -5,15 +15,16 @@ var basketLeft = parseInt(window.getComputedStyle(basket).getPropertyValue("left
 var basketBottom = parseInt(window.getComputedStyle(basket).getPropertyValue("bottom"));
 var score = 0;
 
+
 function moveBasketLeft(){
-    if(basketLeft > 0) {
+    if(basketLeft > -2) {
      basketLeft -=15;
      basket.style.left = basketLeft + "px";
     }
 }
 
 function moveBasketRight(){
-    if(basketLeft < 620){
+    if(basketLeft < 630){
      basketLeft +=15;
      basket.style.left = basketLeft + "px";
     }
@@ -57,10 +68,17 @@ function generateFruits(){
     var fallInterval = setInterval(fallDownFruit,30);
     var fruitTimeout = setTimeout(generateFruits,1800);
 }
+
+
+
 generateFruits();
 
 
 document.addEventListener("keydown",control);
+
+
+
+}
 
 
 
