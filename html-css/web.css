@@ -1,0 +1,127 @@
+  .ENTERTAINMENT-button {
+    background:linear-gradient(30deg, rgb(181, 28, 95), transparent); }                                                        
+    .ENTERTAINMENT-button:hover {opacity:0.8;
+     background-color: aliceblue;
+     color:rgb(181, 28, 95)}
+       .ENTERTAINMENT-button:active {opacity:0.6;}
+
+   
+  .SUBJECTS-button {
+   background: linear-gradient(30deg,rgb(241, 184, 20), transparent);}
+    .SUBJECTS-button:hover {opacity:0.8;
+      background-color:aliceblue;
+      color:rgb(241, 184, 20)}
+       .SUBJECTS-button:active {opacity:0.6;}
+
+   
+  .GENERALKNOWLEDGE-BUTTON {
+   background:linear-gradient(30deg,rgb(73, 11, 61) , transparent);}
+    .GENERALKNOWLEDGE-BUTTON:hover {opacity:0.8;
+      background-color: aliceblue;
+      color:rgb(73, 11, 61);}
+       .GENERALKNOWLEDGE-BUTTON:active {opacity:0.6;}
+
+   
+  .OTHER-BUTTON {
+   background:linear-gradient(30deg, rgb(25, 51, 50), transparent);}                   
+    .OTHER-BUTTON:hover {opacity: 0.8;
+     background-color: aliceblue;
+     color:rgb(25, 51, 50);}
+       .OTHER-BUTTON:active {opacity:0.6;}
+    
+   
+   
+   
+    .basketpic {bottom:20;
+      right:50;
+      width: 150px;
+      position:fixed;
+      cursor:pointer; }
+
+
+
+   
+    .button_plus {
+      position: absolute;
+      margin-top:-350px;
+      margin-left:-740px;
+      width: 50px;
+      height: 50px;
+      background: linear-gradient(30deg, rgb(160, 66, 80), rgb(228, 148, 160),transparent);
+      cursor: pointer;
+      border: 2px solid rgb(25, 51, 50);
+      top: 50%;
+      left: 50%;}
+
+
+
+    body {  background: linear-gradient(30deg, rgb(165, 70, 70), rgb(222, 152, 163),rgb(210, 135, 135));
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;}
+
+
+
+    .button-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 80px;}
+
+
+    
+    .button_plus:after{
+      content: '';
+      position: absolute;
+      top:-20px;
+      left:40px;
+      transform: translate(-50%, -50%);
+      height: 10px;
+      width: 75%;
+      background:rgb(25, 51, 50) ;
+      top: 50%;
+      left: 50%;}
+
+
+    
+    .button_plus:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgb(25, 51, 50);
+      height: 75%;
+      width:10px;}
+    
+                                                                             
+    .button_plus:hover:after {
+      background: linear-gradient(30deg, rgb(160, 66, 80), rgb(228, 148, 160),transparent);
+      transition: 0.2s;}
+
+    .button_plus:hover:before{
+      background: linear-gradient(30deg, rgb(160, 66, 80), rgb(228, 148, 160),transparent);
+      transition: 0.2s;}
+    
+
+    .button_plus:hover {
+      background:linear-gradient(30deg, rgb(25, 51, 50),transparent);
+      transition: 0.2s;}
+
+
+    button{color: aliceblue;
+      border-radius: 13px;
+      height: 100px;
+      width:270px;                                                                                          
+      font-weight: bold;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+      transition:background-color 0.5s;
+      display: flex;
+      justify-content: center;
+      align-items: center;}            
+
+
+

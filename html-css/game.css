@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0; 
+   
+ }
+ body{
+     width:100%;
+     height:100vh;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(29, 15, 15);
+ }
+ .background{
+     width:700px;
+     height:500px;
+ }
+ .game{
+     overflow: hidden;
+     position:relative;
+ }
+ .danger-line{
+     width:100%;
+     height: 15px;
+     background-color:red;
+     position: absolute;
+     bottom:0;
+  }
+ .basketpic{
+     width:70px;
+     height:50px;
+ }
+ .basket{
+     
+     position:absolute;
+     bottom:10px;
+     left:calc(50% - 25px);
+ } 
+  
+ .fruit{
+     width:30px;
+     height:30px;
+     background-size:cover;
+     position:absolute;
+     background-image:url("STRAWBYYYY.png");
+     
+ }
+
+ 
+ 
+ 
+ .Pause-button:hover{
+    background-color:rgb(57, 123, 203) ;
+    color:rgb(255, 255, 255);
+    box-shadow: -5px 10px 50px white;
+ 
+ }
+ 
+ .Pause-button:active{
+     opacity:0.7;
+ }
+ 
+ 
+ .rules{
+     height:300px;
+     
+     background-color: rgba(113, 255, 215, 0.547);
+     position:relative;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 17px;
+     border-color: rgb(2, 29, 26);
+     border-style:solid;
+     border-width: 6px;
+     box-shadow: inset 3px 3px 100px 33px black;
+     padding:20px;
+ }
+ 
+ 
+ .text{
+     font-size: 24px;
+     font-weight: bold;
+     
+ 
+ }
+ 
+ 
+ 
+ .NO-button{
+     height:50px;
+     width:70px;
+     margin:20px;
+     color:black;
+     background-color: rgba(56, 83, 190, 0.278);
+     border-style: solid;
+     border-radius: 3px;
+     font-size: 20px;
+     font-weight:bold;
+     transition:opacity 0.15s;
+     cursor:pointer;
+     margin-bottom:-200px;
+    
+    }
+     
+ 
+     .YES-button{
+        height:50px;
+        width:70px;
+        margin:20px;
+        color:black;
+        background-color: rgba(56, 83, 190, 0.278);
+        border-style: solid;
+        border-radius: 3px;
+        font-size: 20px;
+        font-weight:bold;
+        transition:opacity 0.15s;
+        cursor:pointer;
+        margin-bottom:-200px;
+        
+    
+ }
+ 
+ button:hover{
+     box-shadow: 1px 1px 4.2px 0.1px black;
+ }
+ 
+ button:active{
+    opacity:0.2;
+ }
+ 
+ 
