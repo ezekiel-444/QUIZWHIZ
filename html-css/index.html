@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add your Question</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div id="quiz-container"></div>
+        <form id="quiz-form">
+           
+            <br>
+            <main>
+                <div class="game-quiz-container">
+                    <h1>Add Question</h1>
+                    <div class="game-question-container">
+                <label>
+                    Question:
+                   <input type="text1" name="question" required>
+                </label>
+            </div>    
+              
+            <label>
+                Answers:
+            </label>
+                <input type="text" name="answer1" placeholder="Option 1" required>
+                <input type="text" name="answer2" placeholder="Option 2" required>
+                <input type="text" name="answer3" placeholder="Option 3" required>
+                <input type="text" name="answer4" placeholder="Option 4" required>
+            
+            <br>
+            <label>
+                Correct Answer:
+                <select name="correctAnswer" required>
+                    <option value="answer1">Option 1</option>
+                    <option value="answer2">Option 2</option>
+                    <option value="answer3">Option 3</option>
+                    <option value="answer4">Option 4</option>
+                </select>
+            </label>
+            <br>
+            <button type="button" onclick="submitQuiz()">Submit</button>
+        </form>
+    </div>
+
+</main>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
