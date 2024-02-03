@@ -276,7 +276,7 @@ const questions = [
         optionB: "Tate Britain",
         optionC: "Louvre",
         optionD: "Pompidou Centre",
-        correctOption: "optionc"
+        correctOption: "optionC"
     },
     // 32
     {
@@ -285,7 +285,7 @@ const questions = [
         optionB: "LEGO Ninjas",
         optionC: "Teenage Mutant Ninja Turtles",
         optionD: "Teenage Mutant Ninja Spiders",
-        correctOption: "optionc"
+        correctOption: "optionC"
     },
     // 33
     {
